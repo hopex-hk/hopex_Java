@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/hopex-hk/hopex_Java.svg?branch=main)](https://travis-ci.com/hopex-hk/hopex_Java)
+
 # Hopex Java SDK
 
 This is Hopex Java SDK , you can import to your project and use this SDK to query all market data, trading and manage your account. The SDK supports RESTful API invoking.
@@ -9,19 +11,12 @@ This is Hopex Java SDK , you can import to your project and use this SDK to quer
   - [Folder structure](#Folder-structure)
   - [Run examples](#Run-examples)
   - [Client](#client)
-  - [Migrate from v1](#Migrate-from-v1)
 - [Request example](#Request-example)
-  - [Reference data](#Reference-data)
+  - [Home data](#Home-data)
   - [Market data](#Market-data)
   - [Account](#account)
   - [Wallet](#wallet)
   - [Trading](#trading)
-  - [Margin Loan](#margin-loan)
-- [Subscription example](#Subscription-example)
-  - [Subscribe trade update](#Subscribe-trade-update)
-  - [Subscribe candlestick update](#subscribe-candlestick-update)
-  - [Subscribe order update](#Subscribe-order-update)
-  - [Subscribe account change](#subscribe-account-change)
 
 ## Quick start
 
