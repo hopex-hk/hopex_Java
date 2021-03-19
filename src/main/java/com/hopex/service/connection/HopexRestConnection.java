@@ -66,7 +66,8 @@ public class HopexRestConnection {
         if (isSign) {
             String date = DateTimeFormatter.ofPattern("EEE, dd MMM yyyy HH:mm:ss 'GMT'", new Locale("en"))
                     .format(ZonedDateTime.now(ZoneOffset.UTC));
-            String padload = method == GetMethod ? paramsBuilder.GetParamsMapJson()
+                    
+            String padload = method == GetMethod ? (new JSONObject()).toJSONString()
                     : paramsBuilder.GetPostBodyMapJson();
 
             String digest = HashUtil.HmacSha256(padload, "");
